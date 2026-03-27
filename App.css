@@ -1,0 +1,27 @@
+.landing-page {
+  background-image: url('background.jpg'); /* Đảm bảo đường dẫn ảnh chính xác */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.get-started-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.get-started-btn:hover {
+  background-color: #45a049;
+}
